@@ -90,6 +90,11 @@ img{
   margin-right: auto;
   background-color: #fff;
   padding: 50px 70px;
+  background-image: url(../img/bicycle.png);
+  background-size: cover;
+  background-position-y: 200px;
+  background-repeat: no-repeat;
+  content:"";
 }
 .order-card-header {
   width: 100%;
@@ -121,12 +126,8 @@ img{
 
 .order-account-box:hover{
   box-shadow: 2px 2px 5px #333;
-
 }
 
-.order-card-user-icon {
-
-}
 
 .order-info {
   font-family: "Robot", sans-serif;
@@ -142,43 +143,40 @@ img{
   margin: 0;
   padding: 0;
   padding-top: 10px;
+  padding-bottom: 150px;
   font-family: "Roboto", sans-serif;
   font-size: 22px;
   line-height: 18px;
   font-weight: 500;
-
 }
 
 .order-item-name-price{
   display: flex;
   align-items: center;
-  padding-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 18px;
+  font-weight: 500;
+  margin-bottom: 40px;
 }
 
 .selecter-order-name {
   margin: 0;
   padding: 0;
   color: #555;
+  font-family: 18px;
+
 }
 .selected-order-price {
   color: #000;
   font-weight: bold;
   margin-left: auto;
-  padding-bottom: 20px;
 }
 
 .selecter-order-name-total{
-  padding-top: 30px;
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   text-transform: uppercase;
   line-height: 18px;
   font-weight: 500;
-}
-
-.bicycle-img{
-  position: absolute;
-  width: 600px;
-  z-index: -1;
-
 }
