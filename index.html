@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project Name</title>
+  <title>Order Confirmation</title>
 
   <!-- Google fonts -->
 
@@ -14,7 +14,35 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div class="order-card-wrapper">
+  <header class="order-card-header">
+    <div class="order-header-top">
+      <h1 class="order-card-title">SimpleWheels</h1>
+      <div class="order-account-box"><img class="order-card-user-icon" src="img/account.svg" alt="Account" width="30" height="30"></div>
+    </div>
+    <p class="order-info">Thanks for your order #2357654, your package will be on it's way shortly.</p>
+  </header>
+  <section class="selected-order-wrapper">
+    <div class="order-item-name-price">
+      <div class="selecter-order-name">Chapelli Vintage Single Speed</div>
+      <div class="selected-order-price">$317</div>
+    </div>
 
+    <div class="order-item-name-price">
+      <div class="selecter-order-name">Castelli Arenberg Gel Gloves</div>
+      <div class="selected-order-price">$39</div>
+    </div>
+
+    <div class="order-item-name-price order-item-name-price-total">
+      <div class="selecter-order-name selecter-order-name-total">Total</div>
+      <div class="selected-order-price selected-order-price-total">$356</div>
+    </div>
+  </section>
+
+  <img class="bicycle-img" src="img/bicycle.png" alt="bicycle" class="bike-img">
+
+
+</div>
 
 </body>
 </html>
